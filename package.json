@@ -1,0 +1,38 @@
+{
+  "name": "@ennisseo/modal-component",
+  "version": "1.0.3",
+  "description": "A modal that appears when submitting a form.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ennisseo/plugin_OCP14.git"
+  },
+  "keywords": [
+    "modal",
+    "hrnet"
+  ],
+  "author": "Nicolas Stefanelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ennisseo/plugin_OCP14/issues"
+  },
+  "homepage": "https://github.com/ennisseo/plugin_OCP14#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
